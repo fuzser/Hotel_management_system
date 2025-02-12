@@ -1,0 +1,136 @@
+/* I admit I'm not artistic. */
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #343541;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#example {
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+/* #room_button {
+    width: 60px;
+    height: 60px;
+    font-weight: bold;
+    font-size: large;
+    color: antiquewhite;
+} */
+.room{
+    
+    width: 60px;
+    height: 60px;
+    font-weight: bold;
+    font-size: large;
+    color: antiquewhite;
+}
+
+#datepicker {
+    cursor: default;
+    caret-color: transparent;
+}
+
+#datepicker:hover {
+    background-color: #9fa1b6;
+
+}
+
+p {
+    color: aliceblue;
+    height: 10px;
+}
+
+#login_div {
+    background-color: #000000;
+    padding-bottom: 50%;
+}
+
+textarea {
+    resize: none !important;
+}
+
+#h1_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    background-color: #202123;
+}
+
+#button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#X {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*giao*/
+#video {
+    width: 300px;
+    height: 200px;
+    animation: giao 3s infinite;
+}
+
+@keyframes giao {
+    from {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hidden{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.show {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #9fa1b6;
+    padding: 20px;
+    width: 60%;
+    border: 1px solid #888;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#days{
+    width: 10%;
+}
+#name{
+    width: 25%;
+}
+#phone{
+    width: 25%;
+}
+#note{
+    width: 40%;
+    
+}
